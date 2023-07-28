@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Car Management App</title>
+
+</head>
+
+<style>
+
+
+
+
+    body{
+
+        text-align: center;
+
+        background-image: url("carpic.jpg");
+
+        background-repeat: no-repeat;
+
+        background-size: cover;
+
+      }
+
+    fieldset{
+
+         width: fit-content;
+
+         margin: 0 auto;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         border-bottom-left-radius: 50px;
+         border-bottom-right-radius: 50px;
+
+    }
+    
+
+</style>
+
+<body>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <fieldset>
+
+       
+
+    <h1>Car Management App</h1>
+
+    <form id="carForm">
+
+       
+
+        <label for="id">Car ID:</label><br>
+
+        <input type="number" id="id" required><br><br>
+
+
+
+
+        <label for="model">Car Model:</label><br>
+
+        <input type="text" id="model" required><br><br>
+
+
+
+
+        <label for="price">Car Price:</label><br>
+
+        <input type="number" id="price" min="0" required><br><br>
+
+
+
+
+        <label for="color">Car Color:</label><br>
+
+        <input type="text" id="color" required><br><br>
+
+
+
+
+        <button type="submit">Add Car</button>
+
+    </form>
+
+</fieldset>
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
